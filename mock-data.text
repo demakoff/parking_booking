@@ -1,0 +1,13 @@
+bb8iJPVaj9pWPNgY - admin 1
+xxC9xSZnl4sIthkj - admin 2
+tbfZsAKIAeuaVNkL - standard user 1
+buOHk799vU5Ocmbf - standard user 2
+
+INSERT INTO users (first_name, last_name, email, role, api_token)
+  VALUES ('Jerry', 'Adminthon', 'jerry@adminthon.com', 'admin', 'bb8iJPVaj9pWPNgY'), 
+('Sarah', 'Adminthon', 'sarah@adminthon.com', 'admin', 'xxC9xSZnl4sIthkj'),
+('Tom', 'McStandard', 'tom@mcstandard.com', 'standard', 'tbfZsAKIAeuaVNkL'),
+('Lucy', 'McStandard', 'lucy@mcstandard.com', 'standard', 'buOHk799vU5Ocmbf');
+
+INSERT INTO parking_spots (name)
+  VALUES ('Floor 1, spot 1'), ('Floor 1, spot 2'), ('Floor 1, spot 3'), ('Floor 2, spot 1'), ('Floor 2, spot 2');
