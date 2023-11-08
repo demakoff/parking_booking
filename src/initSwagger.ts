@@ -15,6 +15,9 @@ const initSwagger = (app) => {
             {
               url: "http://localhost:3000",
             },
+            {
+              url: "51.20.71.46"
+            }
           ],
         },
         apis: ["./src/routes/*"],
