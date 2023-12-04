@@ -1,5 +1,5 @@
 # Parking booking REST API service
-Parking spots booking system (home assignment)
+Parking spots booking system
 
 Swagger:
 http://51.20.71.46:3000/api-docs/
